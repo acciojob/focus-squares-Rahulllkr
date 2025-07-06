@@ -1,17 +1,15 @@
 //your JS code here. If required.
-const square1 = document.getElementById("square1")
-const square2 = document.getElementById("square2")
-const square3 = document.getElementById("square3")
+const square1 = document.getElementById("square1");
+const square2 = document.getElementById("square2");
+const square3 = document.getElementById("square3");
 
+const lavender = "#E6E6FA";
+const coffee = "#6F4E37";
 
-const lavender = "#E6E6FA"
-const coffee = "#6F4E37"
-
-function setSquareColor(s1,s2,s3) {
-	s1.style.background = "lavender"
-	s2.style.background = "coffee"
-	s3.style.background = "coffee"
-	
+function setSquaresColor(s1, s2, s3) {
+  s1.style.backgroundColor = lavender;
+  s2.style.backgroundColor = coffee;
+  s3.style.backgroundColor = coffee;
 }
 
 square1.addEventListener("mouseover", () => {
